@@ -17,7 +17,7 @@
 	},
     "autoload": {
         "psr-4": {
-            "SubmittyStandard\\": "SubmittyStandard"
+            "SubmittyStandard\\": "Submitty"
         }
     },
     "license": "MIT",

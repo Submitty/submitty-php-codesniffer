@@ -9,7 +9,7 @@ install:
   - composer install
 
 script:
-  - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./SubmittyStandard
+  - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./Submitty
   - vendor/bin/phpunit --filter Submitty
 
 after_sucess:
