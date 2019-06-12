@@ -11,3 +11,6 @@ install:
 script:
   - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./SubmittyStandard
   - vendor/bin/phpunit --filter Submitty
+
+after_sucess:
+    - travis_retry vendor/bin/php-coveralls
