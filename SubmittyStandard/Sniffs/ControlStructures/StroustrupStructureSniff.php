@@ -10,12 +10,14 @@ namespace SubmittyStandard\Sniffs\ControlStructures;
 use PHP_CodeSniffer\Sniffs\AbstractPatternSniff;
 
 class StroustrupStructureSniff extends AbstractPatternSniff {
+    // phpcs:disable SubmittyStandard.NamingConventions.ValidVariableName.MemberNotSnakeCase
     /**
      * If true, comments will be ignored if they are found in the code.
      *
      * @var boolean
      */
     public $ignoreComments = true;
+    // phpcs: enable
 
     protected function getPatterns() {
         return [

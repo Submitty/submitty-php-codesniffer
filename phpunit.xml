@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+	bootstrap="vendor/squizlabs/php_codesniffer/tests/bootstrap.php"
+	beStrictAboutTestsThatDoNotTestAnything="false"
+>
+	<testsuites>
+		<testsuite name="Submitty CodeSniffer Test Suite">
+			<file>./vendor/squizlabs/php_codesniffer/tests/AllTests.php</file>
+		</testsuite>
+	</testsuites>
+
+	<php>
+		<!-- This line prevents issues with PHPCS trying to load sniff files for
+			 standards which we aren't testing.
+			 Ref: https://github.com/squizlabs/PHP_CodeSniffer/pull/1146 -->
+		<env name="PHPCS_IGNORE_TESTS" value="Generic,MySource,PEAR,PSR1,PSR2,PSR12,Squiz,Zend"/>
+	</php>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./SubmittyStandard/Sniffs</directory>
+        </whitelist>
+    </filter>
+
+	<logging>
+        <log type="coverage-clover" target="report/clover.xml"/>
+        <log type="coverage-html"   target="report" />
+    </logging>
+</phpunit>

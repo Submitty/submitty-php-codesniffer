@@ -1,0 +1,13 @@
+language: php
+dist: xenial
+php:
+  - '7.1'
+  - '7.2'
+  - '7.3'
+
+install:
+  - composer install
+
+script:
+  - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./SubmittyStandard
+  - vendor/bin/phpunit --filter Submitty
