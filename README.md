@@ -1,5 +1,4 @@
-Submitty PHP Code Sniffer
-=========================
+# Submitty PHP Code Sniffer
 
 [![Build Status](https://travis-ci.com/Submitty/submitty-php-codesniffer.svg?branch=master)](https://travis-ci.com/Submitty/submitty-php-codesniffer)
 [![Coverage Status](https://coveralls.io/repos/github/Submitty/submitty-php-codesniffer/badge.svg?branch=master)](https://coveralls.io/github/Submitty/submitty-php-codesniffer?branch=master)
@@ -11,6 +10,7 @@ checks code against the coding standards used in Submitty.
 ## Installation
 
 You should install this using composer:
-```
+
+```bash
 composer require --dev submitty/submitty-php-codesniffer
 ```
