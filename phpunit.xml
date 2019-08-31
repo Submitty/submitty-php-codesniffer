@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit 
+<phpunit
 	bootstrap="vendor/squizlabs/php_codesniffer/tests/bootstrap.php"
 	beStrictAboutTestsThatDoNotTestAnything="false"
 >
@@ -13,7 +13,7 @@
 		<!-- This line prevents issues with PHPCS trying to load sniff files for
 			 standards which we aren't testing.
 			 Ref: https://github.com/squizlabs/PHP_CodeSniffer/pull/1146 -->
-		<env name="PHPCS_IGNORE_TESTS" value="Generic,MySource,PEAR,PSR1,PSR2,PSR12,Squiz,Zend"/>
+		<env name="PHPCS_IGNORE_TESTS" value="Generic,MySource,PEAR,PSR1,PSR2,PSR12,SlevomatCodingStandard,Squiz,Zend"/>
 	</php>
 
     <filter>
