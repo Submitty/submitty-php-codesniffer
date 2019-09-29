@@ -1,10 +1,13 @@
-<?php declare(strict_types = 1);
+<?php
 
 /**
  * Checks the naming of variables and member variables to be lowercase snakecase
  *
  * @author    Matthew Peveler
  */
+
+declare(strict_types=1);
+
 namespace SubmittyStandard\Sniffs\NamingConventions;
 
 use PHP_CodeSniffer\Sniffs\AbstractVariableSniff;

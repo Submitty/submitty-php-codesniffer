@@ -1,5 +1,4 @@
 language: php
-dist: xenial
 php:
   - '7.1'
   - '7.2'
@@ -9,8 +8,8 @@ install:
   - composer install
 
 script:
-  - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty --ignore=Submitty/tests ./Submitty
+  - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./Submitty
   - vendor/bin/phpunit --filter Submitty
 
-after_success:
-    - travis_retry vendor/bin/php-coveralls
+#after_success:
+#    - travis_retry vendor/bin/php-coveralls

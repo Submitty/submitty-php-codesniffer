@@ -12,6 +12,9 @@
         <exclude name="Squiz.ControlStructures.ControlSignature" />
     </rule>
 
+    <rule ref="PSR12">
+    </rule>
+
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.Classes.DuplicateClassName" />
     <rule ref="Generic.Classes.OpeningBraceSameLine" />
@@ -48,7 +51,6 @@
     <!-- See https://github.com/slevomat/coding-standard/ -->
     <rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly" />
     <rule ref="SlevomatCodingStandard.Operators.DisallowEqualOperators" />
-    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes" />
 
     <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements" />
     <rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure" />
