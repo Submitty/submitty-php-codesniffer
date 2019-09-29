@@ -11,5 +11,5 @@ script:
   - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./Submitty
   - vendor/bin/phpunit --filter Submitty
 
-#after_success:
-#    - travis_retry vendor/bin/php-coveralls
+after_success:
+    - bash <(curl -s https://codecov.io/bash)

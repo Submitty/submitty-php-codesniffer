@@ -1,7 +1,7 @@
 # Submitty PHP Code Sniffer
 
 [![Build Status](https://travis-ci.com/Submitty/submitty-php-codesniffer.svg?branch=master)](https://travis-ci.com/Submitty/submitty-php-codesniffer)
-[![Coverage Status](https://coveralls.io/repos/github/Submitty/submitty-php-codesniffer/badge.svg?branch=master)](https://coveralls.io/github/Submitty/submitty-php-codesniffer?branch=master)
+[![codecov](https://codecov.io/gh/Submitty/submitty-php-codesniffer/branch/master/graph/badge.svg)](https://codecov.io/gh/Submitty/submitty-php-codesniffer)
 [![Packagist Version](https://img.shields.io/packagist/v/submitty/php-codesniffer.svg)](https://packagist.org/packages/submitty/php-codesniffer)
 
 This code works with [phpcs](https://github.com/squizlabs/PHP_CodeSniffer) and
