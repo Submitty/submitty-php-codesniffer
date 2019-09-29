@@ -4,8 +4,15 @@ php:
   - '7.2'
   - '7.3'
 
+before_install:
+  - phpenv config-rm xdebug.ini
+
 install:
+  - pecl install pcov
   - composer install
+
+before_script:
+  - vendor/bin/pcov clobber
 
 script:
   - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./Submitty
