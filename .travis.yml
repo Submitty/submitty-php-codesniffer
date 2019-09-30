@@ -15,7 +15,7 @@ before_script:
   - vendor/bin/pcov clobber
 
 script:
-  - vendor/bin/phpcs --colors -p --extensions=php --standard=Submitty ./Submitty
+  - vendor/bin/phpcs --colors -p --standard=Submitty ./Submitty
   - vendor/bin/phpunit --filter Submitty
 
 after_success:

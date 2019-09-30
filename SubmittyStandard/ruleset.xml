@@ -2,6 +2,7 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Submitty" xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">>
     <description>Submitty Coding Standard</description>
 
+    <arg name="extensions" value="php" />
     <arg value="s"/>
 
     <exclude-pattern>*/vendor/*</exclude-pattern>
