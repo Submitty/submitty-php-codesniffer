@@ -15,8 +15,8 @@ before_script:
   - vendor/bin/pcov clobber
 
 script:
-  - vendor/bin/phpcs --colors -p --standard=Submitty ./Submitty
-  - vendor/bin/phpunit --filter Submitty
+  - vendor/bin/phpcs --colors -p --standard=SubmittyStandard ./SubmittyStandard
+  - vendor/bin/phpunit --filter SubmittyStandard
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
