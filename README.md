@@ -12,5 +12,5 @@ checks code against the coding standards used in Submitty.
 You should install this using composer:
 
 ```bash
-composer require --dev submitty/submitty-php-codesniffer
+composer require --dev submitty/php-codesniffer
 ```
