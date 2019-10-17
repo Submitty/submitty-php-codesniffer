@@ -35,6 +35,7 @@
     <rule ref="Generic.WhiteSpace.ScopeIndent" />
 
     <rule ref="Squiz.Arrays.ArrayBracketSpacing"/>
+    <rule ref="Squiz.Classes.ClassFileName" />
     <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
     <rule ref="Squiz.Commenting.DocCommentAlignment"/>
     <rule ref="Squiz.Operators.ValidLogicalOperators"/>
