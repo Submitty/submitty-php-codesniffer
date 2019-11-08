@@ -7,12 +7,6 @@
 
     <exclude-pattern>*/vendor/*</exclude-pattern>
 
-    <rule ref="PSR2">
-        <exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNewLine" />
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
-        <exclude name="Squiz.ControlStructures.ControlSignature" />
-    </rule>
-
     <rule ref="PSR12">
     </rule>
 
