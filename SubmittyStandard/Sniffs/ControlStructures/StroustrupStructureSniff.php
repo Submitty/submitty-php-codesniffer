@@ -33,6 +33,8 @@ class StroustrupStructureSniff extends AbstractPatternSniff {
             '}EOLelseif (...) {EOL',
             '}EOLelse {EOL',
             'do {EOL',
+            'try {EOL',
+            '}EOLcatch (...) {EOL'
         ];
     }
 }

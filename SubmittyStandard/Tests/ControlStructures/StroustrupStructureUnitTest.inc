@@ -20,3 +20,24 @@ do {
 do {
 }
 while(true);
+
+try {
+} catch ($exc) {
+}
+
+try {
+}
+catch ($exc) {
+}
+
+try
+{
+} catch (exc) {
+}
+
+try
+{
+}
+catch (exc)
+{
+}

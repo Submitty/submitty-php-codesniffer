@@ -10,7 +10,12 @@ class StroustrupStructureUnitTest extends AbstractSniffUnitTest {
             4 => 1,
             5 => 1,
             6 => 1,
-            20 => 1
+            20 => 1,
+            25 => 1,
+            33 => 1,
+            35 => 1,
+            38 => 1,
+            41 => 1
         ];
     }
 
