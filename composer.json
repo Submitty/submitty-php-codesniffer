@@ -11,7 +11,7 @@
     "require-dev": {
         "pcov/clobber": "^2.0",
         "phpunit/phpunit": "^7.5.12",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.1"
     },
     "suggest": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically."
