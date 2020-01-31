@@ -5,7 +5,7 @@
     "version": "2.2.3",
     "require": {
         "php": ">=7.1",
-        "squizlabs/php_codesniffer": "^3.5.2",
+        "squizlabs/php_codesniffer": "^3.5.4",
         "slevomat/coding-standard": "^6.1"
     },
     "require-dev": {
@@ -14,8 +14,8 @@
         "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2"
     },
     "suggest": {
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically."
-	},
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically."
+    },
     "autoload": {
         "psr-4": {
             "SubmittyStandard\\": "SubmittyStandard"
