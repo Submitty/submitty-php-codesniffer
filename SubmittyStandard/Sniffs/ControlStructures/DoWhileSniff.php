@@ -10,14 +10,12 @@ declare(strict_types=1);
 
 namespace SubmittyStandard\Sniffs\ControlStructures;
 
-use PHPCSExtra\Universal\Sniffs\ControlStructures\IfElseDeclarationSniff;
+use PHP_CodeSniffer\Standards\Squiz\Sniffs\ControlStructures\ControlSignatureSniff;
 
-class StroustrupStructureSniff extends IfElseDeclarationSniff {
+class DoWhileSniff extends ControlSignatureSniff {
     public function register() {
         return [
-            \T_ELSE,
-            \T_ELSEIF,
-            \T_CATCH
+            T_WHILE
         ];
     }
 }

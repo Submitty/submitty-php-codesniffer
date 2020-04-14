@@ -6,7 +6,9 @@
     "require": {
         "php": ">=7.1",
         "squizlabs/php_codesniffer": "^3.5.4",
-        "slevomat/coding-standard": "^6.1"
+        "slevomat/coding-standard": "^6.1",
+        "phpcsstandards/phpcsutils": "dev-develop",
+        "phpcsstandards/phpcsextra": "dev-develop"
     },
     "require-dev": {
         "pcov/clobber": "^2.0",

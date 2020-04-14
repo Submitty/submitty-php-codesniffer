@@ -13,14 +13,6 @@ elseif (false) {
 else {
 }
 
-do {
-} while (true);
-
-// do-while is special
-do {
-}
-while(true);
-
 try {
 } catch ($exc) {
 }
@@ -33,11 +25,4 @@ catch ($exc) {
 try
 {
 } catch (exc) {
-}
-
-try
-{
-}
-catch (exc)
-{
 }
