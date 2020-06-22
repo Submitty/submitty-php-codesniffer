@@ -1,6 +1,6 @@
 # Submitty PHP Code Sniffer
 
-[![Build Status](https://travis-ci.com/Submitty/submitty-php-codesniffer.svg?branch=master)](https://travis-ci.com/Submitty/submitty-php-codesniffer)
+[![Test](https://github.com/Submitty/submitty-php-codesniffer/workflows/Test/badge.svg?branch=master)](https://github.com/Submitty/submitty-php-codesniffer/actions?query=workflow%3ATest+branch%3Amaster)
 [![codecov](https://codecov.io/gh/Submitty/submitty-php-codesniffer/branch/master/graph/badge.svg)](https://codecov.io/gh/Submitty/submitty-php-codesniffer)
 [![Packagist Version](https://img.shields.io/packagist/v/submitty/php-codesniffer.svg)](https://packagist.org/packages/submitty/php-codesniffer)
 
