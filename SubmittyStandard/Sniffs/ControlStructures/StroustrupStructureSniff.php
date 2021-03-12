@@ -10,14 +10,31 @@ declare(strict_types=1);
 
 namespace SubmittyStandard\Sniffs\ControlStructures;
 
-use PHPCSExtra\Universal\Sniffs\ControlStructures\IfElseDeclarationSniff;
+use PHP_CodeSniffer\Sniffs\AbstractPatternSniff;
 
-class StroustrupStructureSniff extends IfElseDeclarationSniff {
-    public function register() {
+class StroustrupStructureSniff extends AbstractPatternSniff {
+    // phpcs:disable SubmittyStandard.NamingConventions.ValidVariableName.MemberNotSnakeCase
+    /**
+     * If true, comments will be ignored if they are found in the code.
+     *
+     * @var boolean
+     */
+    public $ignoreComments = true;
+    // phpcs: enable
+
+    protected function getPatterns() {
         return [
-            \T_ELSE,
-            \T_ELSEIF,
-            \T_CATCH
+            'do {EOL...} while (...);EOL',
+            'while (...) {EOL',
+            'for (...) {EOL',
+            'if (...) {EOL',
+            'foreach (...) {EOL',
+            '}EOLelse if (...) {EOL',
+            '}EOLelseif (...) {EOL',
+            '}EOLelse {EOL',
+            'do {EOL',
+            'try {EOL',
+            '}EOLcatch (...) {EOL'
         ];
     }
 }
