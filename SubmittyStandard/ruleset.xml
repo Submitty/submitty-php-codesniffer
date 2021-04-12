@@ -59,7 +59,6 @@
 
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility" />
     <rule ref="SlevomatCodingStandard.Classes.ModernClassNameReference" />
-    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements" />
 
     <rule ref="SlevomatCodingStandard.ControlStructures.UselessIfConditionWithReturn" />
     <rule ref="SlevomatCodingStandard.ControlStructures.UselessTernaryOperator" />
