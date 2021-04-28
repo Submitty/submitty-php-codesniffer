@@ -128,16 +128,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "7.0.2",
+            "version": "7.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "7815b1397bd9ff3e09bac9446ecb680f3fc69844"
+                "reference": "cad651ba4920b4fe458cd38b76a87a6f4a18f64f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/7815b1397bd9ff3e09bac9446ecb680f3fc69844",
-                "reference": "7815b1397bd9ff3e09bac9446ecb680f3fc69844",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/cad651ba4920b4fe458cd38b76a87a6f4a18f64f",
+                "reference": "cad651ba4920b4fe458cd38b76a87a6f4a18f64f",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
             "require-dev": {
                 "phing/phing": "2.16.4",
                 "php-parallel-lint/php-parallel-lint": "1.3.0",
-                "phpstan/phpstan": "0.12.83",
+                "phpstan/phpstan": "0.12.85",
                 "phpstan/phpstan-deprecation-rules": "0.12.6",
                 "phpstan/phpstan-phpunit": "0.12.18",
                 "phpstan/phpstan-strict-rules": "0.12.9",
@@ -173,7 +173,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/7.0.2"
+                "source": "https://github.com/slevomat/coding-standard/tree/7.0.6"
             },
             "funding": [
                 {
@@ -185,7 +185,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-14T18:15:42+00:00"
+            "time": "2021-04-27T16:34:01+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
