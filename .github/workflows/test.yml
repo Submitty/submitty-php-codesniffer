@@ -40,9 +40,6 @@ jobs:
       if: steps.composer-cache.outputs.cache-hit != 'true'
       run: composer install --prefer-dist --no-progress --no-suggest
 
-    - name: Setup pcov
-      run: vendor/bin/pcov clobber
-
     - name: Lint
       run: vendor/bin/phpcs --colors -p --standard=SubmittyStandard ./SubmittyStandard
 
