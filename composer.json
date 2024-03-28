@@ -17,7 +17,6 @@
         }
     },
     "require-dev": {
-        "pcov/clobber": "^2.0",
         "phpunit/phpunit": "^9.3.4",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
     },
