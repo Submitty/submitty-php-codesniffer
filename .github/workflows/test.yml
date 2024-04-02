@@ -2,9 +2,9 @@ name: Test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        php-version: ['7.1', '7.2', '7.3', '7.4']
+        php-version: ['8.1', '8.2']
 
     steps:
     - uses: actions/checkout@v2
@@ -39,9 +39,6 @@ jobs:
     - name: Install dependencies
       if: steps.composer-cache.outputs.cache-hit != 'true'
       run: composer install --prefer-dist --no-progress --no-suggest
-
-    - name: Setup pcov
-      run: vendor/bin/pcov clobber
 
     - name: Lint
       run: vendor/bin/phpcs --colors -p --standard=SubmittyStandard ./SubmittyStandard

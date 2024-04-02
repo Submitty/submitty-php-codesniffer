@@ -4,18 +4,20 @@
     "description": "Submitty PHP CodeSniffer Standard",
     "version": "3.0.0",
     "require": {
-        "php": ">=7.1",
+        "php": ">=8.1",
         "squizlabs/php_codesniffer": "^3.5.4",
-        "slevomat/coding-standard": "^7.0.15"
+        "slevomat/coding-standard": "^8.15.0"
     },
     "config": {
         "platform": {
-            "php": "7.1"
+            "php": "8.1"
+        },
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "require-dev": {
-        "pcov/clobber": "^2.0",
-        "phpunit/phpunit": "^7.5.12",
+        "phpunit/phpunit": "^9.3.4",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1"
     },
     "suggest": {
